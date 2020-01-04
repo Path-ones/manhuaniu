@@ -1383,3 +1383,158 @@ Traceback (most recent call last):
 KeyError: 'f'
 2020-01-04 09:51:08 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET https://restp.dongqiniqin.com//images/comic/216/430480/https://manhua.qpic.cn/manhua_detail/0/12_11_12_4ef7606fe12cfd89870445231b8e0bb4_28125.jpg/0> referred in <None>
 2020-01-04 10:05:18 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET https://restp.dongqiniqin.com//images/comic/216/430480/https://manhua.qpic.cn/manhua_detail/0/12_11_12_4ef7606fe12cfd89870445231b8e0bb4_28125.jpg/0> referred in <None>
+2020-01-04 11:16:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 56, in parse
+    callback=self.get_chapter_parse)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 62, in _set_url
+    raise ValueError('Missing scheme in request url: %s' % self._url)
+ValueError: Missing scheme in request url: 1
+2020-01-04 11:17:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 57, in parse
+    callback=self.get_chapter_parse)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 62, in _set_url
+    raise ValueError('Missing scheme in request url: %s' % self._url)
+ValueError: Missing scheme in request url: 1
+2020-01-04 11:21:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 46, in parse
+    num = int(input('请选择要下载的漫画编号:'))
+ValueError: invalid literal for int() with base 10: ''
+2020-01-04 11:22:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 46, in parse
+    num = int(input('请选择要下载的漫画编号:'))
+ValueError: invalid literal for int() with base 10: ''
+2020-01-04 11:23:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 58, in parse
+    callback=self.get_chapter_parse)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got int:
+2020-01-04 11:32:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 58, in parse
+    callback=self.get_chapter_parse)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got int:
+2020-01-04 11:37:55 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 56, in parse
+    callback=self.get_chapter_parse)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/http/request/__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got int:
+2020-01-04 11:38:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 46, in parse
+    num = int(input('请选择要下载的漫画编号:'))
+ValueError: invalid literal for int() with base 10: '1\\'
+2020-01-04 11:45:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.manhuaniu.com/search/?keywords=%E4%BD%A0%E5%A5%BD> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/tarena/aid1908/spider/One/One/spiders/one.py", line 46, in parse
+    if str(num) == all_dict[str(num - 1)]:
+KeyError: '0'
